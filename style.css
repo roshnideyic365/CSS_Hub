@@ -1,0 +1,137 @@
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 46, 46);
+    line-height: 25px;
+}
+header
+{
+    margin-top: 6%;
+    font-size: xxx-large;
+    font-family: Rockwell;
+}
+.left
+{
+    background-color: rgb(226, 225, 225);
+    position: fixed;
+    height:100%;
+    width: 20%;
+    top:0;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+}
+.left header
+{
+    margin: 8%;
+    font-size: xx-large;
+}
+.nav-link
+{
+    margin:5%;
+    padding: 6%;
+    line-height: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+.right
+{
+    margin-top: 3%;
+    margin-left:23%;
+}
+.right p section
+{
+    padding: 1% 0% 0% 2%;
+}
+.right a
+{
+    color:rgb(60, 60, 155);
+}
+section p
+{
+    padding: 1% 0% 0% 2%;
+}
+section h1:hover
+{
+    text-decoration: underline;
+}
+section header:hover
+{
+    text-decoration: underline;
+}
+section h4{
+    padding-left:2%;
+}
+#key_resources p
+{
+    padding: 0% 5% 2% 5%;
+    line-height: 5px;
+}
+.add
+{
+    background-color: rgb(181, 252, 228);
+    margin:3% 0% 2% 0%;
+    border-radius: 5%;
+    padding:2% 0% 5% 5%;
+    width: 75%;
+    line-height: 20px;
+    color: rgb(27, 27, 27);
+}
+.add h3
+{
+    font-family: garamond;
+    font-size:xx-large;
+    line-height: 2px;
+}
+
+#Tutorials p
+{
+    padding-left:5%;
+}
+.problem
+{
+    background-color: rgb(226, 225, 225);
+    margin:3% 0% 3% 21%;
+    padding:1% 0% 1% 2%;
+    width: 75%;
+    line-height: 10px;
+    color: rgb(27, 27, 27);
+}
+.problem h3
+{
+    font-family: garamond;
+    font-size:x-large;
+}
+.problem ul li
+{
+    line-height: 30px;
+}
+.problem button
+{
+    border-radius: 5px;
+    background-color: rgb(55, 57, 150);
+    padding:2px;
+    margin-left: 30px;
+    color:white;
+}
+.sub header
+{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+code{
+    color:red;
+    background-color: rgb(226, 225, 225);
+    font-size: large;
+}
+.sub ul
+{
+    padding-left: 9%;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(226, 225, 225);
+    }
+  }
